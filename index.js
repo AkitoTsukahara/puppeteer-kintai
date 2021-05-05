@@ -28,7 +28,7 @@ const puppeteer = require('puppeteer');
   //await page.screenshot({ path: 'screenshot/sample1.png' });
 
   //「出勤」
-  //await clockIn(page);
+  await clockIn(page);
 
   //「退勤」
   //await clockOut(page);
